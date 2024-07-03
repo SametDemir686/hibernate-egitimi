@@ -6,5 +6,13 @@
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
         <property name="hibernate.connection.username">postgres</property>
+
+        <mapping class="mapping.onetoone.User"/>
+        <mapping class="mapping.onetoone.UserProfile"/>
+        <mapping class="mapping.manytoone.Course"/>
+        <mapping class="mapping.manytoone.Lecturer"/>
+        <mapping class="mapping.manytomany.Book"/>
+        <mapping class="mapping.manytomany.Author"/>
+        <mapping class="lifecycle.Student"/>
     </session-factory>
 </hibernate-configuration>

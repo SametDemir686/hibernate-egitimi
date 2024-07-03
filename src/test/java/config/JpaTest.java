@@ -1,3 +1,6 @@
+package config;
+
+import config.JpaConfig;
 import org.junit.Test;
 
 import javax.persistence.EntityManager;
