@@ -14,5 +14,6 @@
         <mapping class="mapping.manytomany.Book"/>
         <mapping class="mapping.manytomany.Author"/>
         <mapping class="lifecycle.Student"/>
+        <mapping class="embeddable.Citizen"/>
     </session-factory>
 </hibernate-configuration>
